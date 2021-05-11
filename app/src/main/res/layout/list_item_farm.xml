@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parent"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="7dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_toEndOf="@id/imageFarm"
+            android:layout_marginStart="30dp"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/salsa"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/owner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/seeMoreButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:width="120dp"
+                android:gravity="center"
+                android:text="@string/see_more" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageFarm"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
