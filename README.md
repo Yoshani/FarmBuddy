@@ -1,5 +1,7 @@
 # FarmFinder
-This project is for completing an assignment that integrates several HMS kits developed for the Online Training Course on Mobile Application Development provided by Huawei
+This project is for completing an assignment that integrates several HMS kits developed for the Online Training Course on Mobile Application Development provided by Huawei.
+
+Introduction: The application displays several registered farms to the user, and the user may view their locations, add geofences, and be alerted when nearing a farm of interest.
 
 HMS Kits integrated: Account Kit, Push Kit, Map Kit, Location Kit 
 
